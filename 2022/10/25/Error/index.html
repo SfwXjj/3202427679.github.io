@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Error | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1.http 状态 500 - 找不到返回值的转换器类型：类 java.util.哈希映射 类错误截图   原因：Springmvc默认是没有对象转换成json的转换器的，需要手动添加jackson依赖 解决方法 1.在pom.xml加载驱动   2.SpringMVC配置文件中记得添加注解驱动     2.HTTP Status 500 - Request processing failed;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Error">
+<meta property="og:url" content="http://example.com/2022/10/25/Error/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1.http 状态 500 - 找不到返回值的转换器类型：类 java.util.哈希映射 类错误截图   原因：Springmvc默认是没有对象转换成json的转换器的，需要手动添加jackson依赖 解决方法 1.在pom.xml加载驱动   2.SpringMVC配置文件中记得添加注解驱动     2.HTTP Status 500 - Request processing failed;">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/error1.png">
+<meta property="og:image" content="http://example.com/images/error2.png">
+<meta property="og:image" content="http://example.com/images/error3.png">
+<meta property="og:image" content="http://example.com/images/500error1.png">
+<meta property="og:image" content="http://example.com/images/500error2.png">
+<meta property="og:image" content="http://example.com/images/500error3.png">
+<meta property="og:image" content="http://example.com/images/405error.jpeg">
+<meta property="og:image" content="http://example.com/images/tomcaterror.PNG">
+<meta property="og:image" content="http://example.com/images/build_success.png">
+<meta property="article:published_time" content="2022-10-25T01:03:26.000Z">
+<meta property="article:modified_time" content="2023-02-23T02:29:48.000Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/error1.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Error" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2022/10/25/Error/" class="article-date">
+  <time datetime="2022-10-25T01:03:26.000Z" itemprop="datePublished">2022-10-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Error
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-http-状态-500-找不到返回值的转换器类型：类-java-util-哈希映射-类"><a href="#1-http-状态-500-找不到返回值的转换器类型：类-java-util-哈希映射-类" class="headerlink" title="1.http 状态 500 - 找不到返回值的转换器类型：类 java.util.哈希映射 类"></a><font color="#0066cc">1.http 状态 500 - 找不到返回值的转换器类型：类 java.util.哈希映射 类</font></h2><p>错误截图</p>
+<img src="/images/error1.png">
+
+<p>原因：Springmvc默认是没有对象转换成json的转换器的，需要手动添加jackson依赖</p>
+<p>解决方法</p>
+<p>1.在pom.xml加载驱动</p>
+<img src="/images/error2.png">
+
+<p>2.SpringMVC配置文件中记得添加注解驱动</p>
+<img src="/images/error3.png">
+
+
+<h2 id="2-HTTP-Status-500-Request-processing-failed-nested-exception-is-java-lang-NullPointerException"><a href="#2-HTTP-Status-500-Request-processing-failed-nested-exception-is-java-lang-NullPointerException" class="headerlink" title=" 2.HTTP Status 500 - Request processing failed; nested exception is java.lang.NullPointerException "></a><font color="#0066cc"> 2.HTTP Status 500 - Request processing failed; nested exception is java.lang.NullPointerException </font></h2><p>错误截图：</p>
+<img src="/images/500error1.png">
+
+<p>原因：有参数，就将args中所有元素遍历，获取对应的Class,装入到一个class[],参数需要是包装类型，才能获取对象,不能传空值</p>
+<img src="/images/500error2.png">
+
+<p>解决方法：</p>
+<p>把空值附上默认值</p>
+<img src="/images/500error3.png">
+
+<h2 id="3-HTTP-Status-405-Request-method-‘GET’-not-supported"><a href="#3-HTTP-Status-405-Request-method-‘GET’-not-supported" class="headerlink" title="3.HTTP Status 405 - Request method ‘GET’ not supported"></a><font color="#0066cc">3.HTTP Status 405 - Request method ‘GET’ not supported</font></h2><img src="/images/405error.jpeg">
+
+<p><font color="blue">405 方法不允许</font></p>
+<p>405（方法不允许）状态代码表示请求行中接收的方法为源服务器已知，但目标资源不支持。源服务器必须在 405 响应中生成允许标头字段，其中包含目标资源当前支持的方法的列表。405 响应可启发式缓存;即，除非方法定义或显式缓存控件另有说明</p>
+<p>解决方法：sql语句拿值错误(本该拿一个值,却拿了一行值)</p>
+<h2 id="4-执行目标org-apache-maven-plugins-maven-install-plugin-2-3-1-安装-默认安装-项目sunnyday-service-安装元数据失败com-xr-sunnyday-service-1-0-SNAPSHOT-maven-metadata-xml-无法解析元数据D-resource-maven-repository-com-xr-sunnyday-service-1-0-SNAPSHOT-maven-metadata-local-xml-只有空白内容允许开始标记之前，而不是-u0-位置-START-DOCUMENT-seen-u0…-1-1-gt-帮助1"><a href="#4-执行目标org-apache-maven-plugins-maven-install-plugin-2-3-1-安装-默认安装-项目sunnyday-service-安装元数据失败com-xr-sunnyday-service-1-0-SNAPSHOT-maven-metadata-xml-无法解析元数据D-resource-maven-repository-com-xr-sunnyday-service-1-0-SNAPSHOT-maven-metadata-local-xml-只有空白内容允许开始标记之前，而不是-u0-位置-START-DOCUMENT-seen-u0…-1-1-gt-帮助1" class="headerlink" title="4.执行目标org.apache.maven.plugins:maven-install-plugin:2.3.1:安装(默认安装)项目sunnyday_service:安装元数据失败com.xr:sunnyday_service:1.0-SNAPSHOT/maven-metadata.xml:无法解析元数据D:\resource\maven\repository\com\xr\sunnyday_service\1.0-SNAPSHOT\maven-metadata-local.xml:只有空白内容允许开始标记之前，而不是\u0(位置:START_DOCUMENT seen \u0…@1:1) -&gt;[帮助1]"></a><font color="#0066cc">4.执行目标org.apache.maven.plugins:maven-install-plugin:2.3.1:安装(默认安装)项目sunnyday_service:安装元数据失败com.xr:sunnyday_service:1.0-SNAPSHOT/maven-metadata.xml:无法解析元数据D:\resource\maven\repository\com\xr\sunnyday_service\1.0-SNAPSHOT\maven-metadata-local.xml:只有空白内容允许开始标记之前，而不是\u0(位置:START_DOCUMENT seen \u0…@1:1) -&gt;[帮助1]</font></h2><img src="/images/tomcaterror.PNG">
+
+<p>“参照CSDN的一位博主:” <a target="_blank" rel="noopener" href="https://blog.csdn.net/gao_jun1/article/details/109997200">https://blog.csdn.net/gao_jun1/article/details/109997200</a></p>
+<p>问题并没有解决(检查了模块之间的jDK版本)</p>
+<p>“又参照CSDN的博主:” <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43458743/article/details/106771486">https://blog.csdn.net/qq_43458743/article/details/106771486</a></p>
+<p>问题依旧没有解决(写了一个cleanmaven.bat)</p>
+<p>“又参照CSDN的博主:” <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_15199097/article/details/106187991">https://blog.csdn.net/qq_15199097/article/details/106187991</a></p>
+<p>问题解决了(删除了本地maven仓库中报错的文件maven-metadata-local.xml)</p>
+<h2 id="5-BUILD-SUCCESS"><a href="#5-BUILD-SUCCESS" class="headerlink" title="5.BUILD SUCCESS"></a><font color="#0066cc">5.BUILD SUCCESS</font></h2><img src="/images/build_success.png">
+
+<p>错误：每一次运行main方法都会去加载MAVEN下的资源文件</p>
+<p>解决方法：1.FIle -&gt; Setting -&gt; Runner 2.去除Delegate IDE build/run actions to Maven这里的勾选，这句话的意思是将IDEA构建/运行操作委托给Maven 3.保存之后，再次运行，</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/10/25/Error/" data-id="clf0inbj600037wtt2qrkf1cc" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/11/09/%E4%B8%80%E4%BA%9B%E6%B0%B4%E9%A2%98/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          一些水题
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/10/19/JS%E5%9F%BA%E7%A1%80%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">JS基础思维导图</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/03/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">我的第一篇博客</a>
+          </li>
+        
+          <li>
+            <a href="/2023/03/09/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/03/01/log/">log</a>
+          </li>
+        
+          <li>
+            <a href="/2023/03/01/flow/">flow</a>
+          </li>
+        
+          <li>
+            <a href="/2022/11/09/%E5%8D%9A%E5%AE%A2Error/">博客Error</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2023 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
